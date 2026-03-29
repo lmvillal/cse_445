@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Error 1 - NationalPark instead of NationalParks root element name: --> 
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://lmvillal.github.io/cse_445/NationalParks.xsd">
-
+<NationalPark xmlns="https://lmvillal.github.io/cse_445/"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://lmvillal.github.io/cse_445/ https://lmvillal.github.io/cse_445/NationalParks.xsd">
+              
 <!-- National Park 1: Grand Canyon --> 
 <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
