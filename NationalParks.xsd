@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://lmvillal.github.io/cse_445/"
+           xmlns="https://lmvillal.github.io/cse_445/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+
 <!-- Root --> 
 <xs:element name="NationalParks">
 
@@ -32,7 +37,7 @@
 
                         </xs:sequence>
 
-                        <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+                        <xs:attribute name="Rating" type="xs:string" use="optional"/>
 
                     </xs:complexType>
 
